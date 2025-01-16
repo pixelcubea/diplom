@@ -5,4 +5,4 @@ run:
 	docker run -d -p 5000:5000 my-app
 
 test:
-	pytest tests/
+    source .venv/bin/activate && pytest tests/
